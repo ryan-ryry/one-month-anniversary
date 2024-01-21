@@ -78,11 +78,25 @@
 }
 
 #heart{
+	width: 100%;
+	height: 100%;
+}
+
+#button{
+	background-image: url("../pic/love.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	background-position: center;
+	transition: 0.1s;
 	width: 5vw; /* adjust as needed */
 	height: 5vw; /* adjust as needed */
 }
 
-#heart:active {
+
+#button:active {
 	width: 92%;
 	height: 92%;
 }
